@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* .navbar{
+    background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    margin-left: 20px;
+} */
+.navbar {
+	background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar li a:hover {
+    color: rgb(223, 88, 26) !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd9d3e;
+}
+.navbar i:hover{
+    color: #fd9d3e;
+}
+.navbar-light .navbar-nav .nav-links{
+    background-color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #999;
+    padding: 4px 10px;
+}
+.navbar-light .navbar-nav .nav-links:hover{
+    color: #fd9d3e;
+}
+.breadcumb {
+    display: block;
+    background: #191919;
+    padding: 0;
+    height: 460px;
+    background-size: cover;
+    position: relative;
+}
+.breadcumb .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .bread-title {
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Gamja Flower';
+    text-align: center;
+}
+.bread .home{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    color:aliceblue;
+}
+.bread .home1{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    color:aliceblue;
+}
+.bread .home:hover{
+    color: #fd9d3e;
+    font-size: 20px;
+}
+.cover img, .cover a img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.row{
+    padding-top: 80px;
+    padding: 0px - 18.5%;
+    margin: 0px-15px;
+}
+.cover-text h1{
+    margin-left: 0px;
+    margin-top: 100px;
+    font-family: 'Gamja Flower';
+    font-size: 50px;
+    color: #fd9d3e;
+}
+.cover-text h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #191919;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.cover-text p{
+    font-size: 15px;
+    color: #999;
+    font-family: 'Gamja Flower';
+    line-height: 20px;
+}
+
