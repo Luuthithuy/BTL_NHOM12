@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* .navbar{
+    background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    margin-left: 20px;
+} */
+.navbar {
+	background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 28px;
+}
+.navbar li a {
+    color: #fff !important;
+}
+.navbar li a:hover {
+    color: rgb(223, 88, 26) !important;
+}
+.dropdown-menu .dropdown-item{
+    background-color: rgba(82,64,120,0.9) !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd9d3e;
+}
+.navbar i:hover{
+    color: #fd9d3e;
+}
+.navbar-light .navbar-nav .nav-links{
+    background-color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #999;
+    padding: 4px 10px;
+}
+.navbar-light .navbar-nav .nav-links:hover{
+    color: #fd9d3e;
+}
+/*Slide*/
+.carousel-inner img {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+}
+.carousel-caption h5 {
+	font-size: 60px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #000;
+    font-family: 'Gamja Flower';
+    color: #fff;
+}
+.carousel-caption p {
+	font-size: 25px;	
+	text-shadow: 2px 2px 10px #000;
+    font-family: 'Gamja Flower';
+}
+/* .btn-primary {
+	background-color: rgb(82,64,120);
+	border: 1px solid white;
+}
+.btn-primary:hover {
+	background-color: rgb(62,44,100);
+	border: 1px solid white;
+} */
+/*Cost*/
+.fresh-form-pizzon {
+    margin: 50px 70px;
+
+}
+
+.header-sub {
+    text-align: center;
+}
+.header-sub p{
+    font-size: 50px;
+    color: #fd9d3e;
+    font-family: 'Pacifico', cursive;
+}
+.header-sub h2{ 
+    font-size: 40px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+width: 240px;
+height: 330px;
+margin: 20px;
+}
+.menu-item img {
+    width: 200px;
+    height: 150px;
+}
+.menu-item img:hover{
+    transform: translateY(-20px);
+}
+.menu-item p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+} 
+.menu-item h3{
+    font-size: 18px;
+    font-family: 'PT Sans Narrow';
+}
+.menu-item span{
+    font-size: 18px;
+    color: #fd9d3e;
+}
+/*Footer*/
+
+.ctt{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.ct:hover{
+    color: #fd9d3e;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-white h6{
+    text-align:center;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fd9d3e;
+    padding: 4px 10px;
+    background-color: #fd9d3e;
+}
+.text-uppercase{
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+.text-white{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.icon i{
+    margin: 5px 5px 15px 15px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    background-color: #191919;
+}
+.icon i:hover{
+    color:  #fd9d3e;
+}
+/*Build your application*/
+.features h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fd9d3e;
+    font-family: 'Pacifico', cursive;
+}
+.features p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.features .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(7rem, 1fr));
+    gap: 1.5rem;
+    
+}
+.features .box-container .box{
+    flex-basis: 20%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 0px 0px;
+    margin-bottom: 5%;
+    outline: black;
+    border: 3px solid #999;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.features .box-container .box:hover{
+    border: 3px solid #000;
+    outline-offset: 0rem;
+    cursor: pointer;
+}
+.features .box-container .box img{
+    height: 9rem;
+    margin-top: 10px;
+}
+
+.features .box-container .box h3{
+    font-size: 2rem;
+    font-family: 'Gamja Flower';
+    margin-top: 2rem;
+
+}
+.features .box-container .box p{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+.btn {
+	background-color: white;
+	border: 1px solid black;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover {
+	background-color: #fd9d3e;
+	border: 1px solid black;
+} 
+/*Book a table*/
+.online{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.online h3{
+    color: #fd9d3e;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.online h1{
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.online p{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.online span{
+    width: 79%;
+    display: flex;
+    align-items: center;
+    box-shadow: #fff;
+    background: black;
+    border: 10px solid #fd9d3e;
+    padding: 14px;
+    cursor: pointer;
+}
+.online span:hover{
+    background-color: rgb(92, 43, 43);
+    color: #191919;
+}
+.online span i{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.online span i:hover{
+    color: #191919;
+}
+.online strong{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    text-align: center;
+}
+.online strong:hover{
+    color: #191919;
+}
+.title h4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin-top: 50px;
+}
+.user-details .input-box{
+    width: calc(100% - 2 - 20px);
+    line-height: 75px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 500px;
+    
+}
+select{
+    width: 83%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn1{
+    background-color: #191919;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 10px solid #fff;
+    transition:transform .4s ;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+}
+.btn1:hover{
+    transform: scale(1.2);
+    color: #fd9d3e;
+    background-color: blue;
+} 
+/**/
+.staff{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+    color: #fd9d3e;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+/*Recent Event*/
+.event h3{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+    color: #fd9d3e;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.event h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.image{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.image #zoom-In img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.image #zoom-In:hover img{
+    transform: scale(1.5);
+}
+.event-caption1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.event-caption1:hover{
+    text-decoration: underline;
+}
+.event-caption2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.event-caption2:hover{
+    color: #fd9d3e;
+    text-decoration: underline;
+}
+/*Review*/
+
+.reviews .reviews-slide{
+    padding-bottom: 3rem;
+}
+.reviews .reviews-slide .box{
+    padding: 5rem 0;
+    text-align: center;
+    margin: 0 0;
+    opacity: .4;
+    transform: scale(.9);
+}
+
+.reviews .reviews-slide .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.reviews .reviews-slide .box .content h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: black;
+}
+.reviews .reviews-slide .box .content p{
+    font-size: 15px;
+    color: #191919;
+    font-family: 'Gamja Flower';
+}
+.reviews .reviews-slide .box .content .stars i{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 0, 0.765);
+    margin-top: 2rem;
+}
+.reviews .reviews-slide .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    border: #fd9d3e;
+    box-shadow: #fd9d3e;
+    border-radius: 3rem;
+}
+.heading1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #fd9d3e;
+
+}
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*Delicious Restaurant*/
+.cover{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #fd9d3e;
+}
+.cover-text{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: #000;
+    font-weight: 600;
+}
+.btn2{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition:transform .4s ;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.btn2:hover{
+    transform: scale(1.2);
+    color: #fd9d3e;
+} 
