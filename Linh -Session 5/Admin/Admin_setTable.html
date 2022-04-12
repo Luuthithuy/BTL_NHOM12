@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <title>Admin Set Table</title>
+  <link rel="stylesheet" href="./Admin_css/Admin_SetTable.css">
+</head>
+
+<body>
+  <!-- header -->
+  
+  <!-- /header -->
+  
+        <!-- header col 2 row1-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <p style="padding-top: 20px;color:rgb(0, 0, 0);font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">Quản lý đặt bàn
+                online</p>
+            </div>
+            <div class="col">
+              <p>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="float:right">
+                  <li class="breadcrumb-item" aria-current="page" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><a href="/index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Quản lý đặt bàn online</li>
+                </ol>
+              </nav>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- body col 2 row2-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a href="#" style="color:rgb(236, 143, 81);font-size: 23px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">Danh sách đặt bàn
+                trong tháng 4 </a>
+            </div>
+            <div class="col">
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example" style="float:right">
+                <button type="button" class="btn btn-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tháng 3</button>
+                <button type="button" class="btn btn-warning" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">năm 2021</button>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+        </br>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <input class="form-control" type="text" placeholder="Tìm kiếm theo số điện thoại"
+                aria-label="default input example">
+            </div>
+            <div class="col">
+              <input class="form-control" type="text" placeholder="Tìm kiếm theo: Ngày/tháng/năm "
+                aria-label="default input example">
+            </div>
+          </div>
+        </div>
+        </br>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col" style="color:rgb(15, 15, 14);font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">
+              Tất cả đơn đặt bàn trong ngày
+            </div>
+          </div>
+        </div></br>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mã hóa đơn</th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Họ và tên </th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Số điện thoại</th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Thời gian đặt bàn</th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Số người</th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tình trạng</th>
+              <th scope="col" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Thanh toán</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><a href="#">00001</a></th>
+              <td>Phạm Tuấn Anh</td>
+              <td>0385336799</td>
+              <td>7h - 8h</td>
+              <td>6</td>
+              <td>Thành công</td>
+              <td>4.460.000</td>
+              <td class="cancel">--</td>
+            </tr>
+            <tr>
+              <th scope="row">00002</th>
+              <td>Nguyễn Ngọc Anh</td>
+              <td>0123456789</td>
+              <td>10h - 1h</td>
+              <td>8</td>
+              <td>Tạm thời</td>
+              <td>--</td>
+              <td class="cancel"><button>Hủy đặt bàn</button></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="#">00003</a></th>
+              <td>Trần Hương Lan</td>
+              <td>0123456789</td>
+              <td>7h15 - 8h30</td>
+              <td>4</td>
+              <td>Thành công</td>
+              <td>1.360.000</td>
+              <td class="cancel">--</td>
+            </tr>
+            <tr>
+              <th scope="row">00023</th>
+              <td>Trần Ngọc Linh</td>
+              <td>0123456789</td>
+              <td>8h-20h</td>
+              <td>2</td>
+              <td>Tạm thời</td>
+              <td>--</td>
+              <td class="cancel"><button>Hủy đặt bàn</button></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="#">00081</a></th>
+              <td>Ngô Nhật Mai</td>
+              <td>0915346719</td>
+              <td>8h30 - 9h</td>
+              <td>8</td>
+              <td>Đã hoàn thành</td>
+              <td>9.943.000</td>
+              <td class="cancel">--</td>
+            </tr>
+            <tr>
+              <th scope="row">00099</th>
+              <td>Đặng Quỳnh Nam</td>
+              <td>0123456789</td>
+              <td>9h - 11h</td>
+              <td>6</td>
+              <td>Tạm thời</td>
+              <td>--</td>
+              <td class="cancel"><button>Hủy đặt bàn</button></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="#">00062</a></th>
+              <td>Hà Ngọc Xuân</td>
+              <td>0123456789</td>
+              <td>9h15 - 10h30</td>
+              <td>6</td>
+              <td>Thành công</td>
+              <td>7.360.000</td>
+              <td class="cancel">--</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="#">00042</a></th>
+              <td>Nguyễn Thùy Dung</td>
+              <td>0123456789</td>
+              <td>9h15 - 10h40</td>
+              <td>4</td>
+              <td>Thành công</td>
+              <td>6.360.000</td>
+              <td class="cancel">--</td>
+            </tr>
+            <tr>
+                <th scope="row"><a href="#">00077</a></th>
+                <td>Lâm Phương Oanh</td>
+                <td>0123456789</td>
+                <td>9h - 10h</td>
+                <td>3</td>
+                <td>Thành công</td>
+                <td>2.360.000</td>
+                <td class="cancel">--</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">00019</a></th>
+                <td>Nguyễn Thị Tú Anh</td>
+                <td>0123456789</td>
+                <td>8h20 - 10h30</td>
+                <td>8</td>
+                <td>Thành công</td>
+                <td>5.360.000</td>
+                <td class="cancel">--</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">00123</a></th>
+                <td>Ngô Ngọc Thành</td>
+                <td>0123456789</td>
+                <td>1h - 3h30</td>
+                <td>4</td>
+                <td>Thành công</td>
+                <td>1.360.000</td>
+                <td class="cancel">--</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">00095</a></th>
+                <td>Đặng Minh Anh</td>
+                <td>0123456789</td>
+                <td>6h30 - 8h</td>
+                <td>3</td>
+                <td>Thành công</td>
+                <td>900.000</td>
+                <td class="cancel">--</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+  <script src="./Admin_Js/Admin_SetTable.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>

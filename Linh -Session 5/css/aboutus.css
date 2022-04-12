@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* .navbar{
+    background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    margin-left: 20px;
+} */
+.navbar {
+	background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+.navbar li a {
+    color: #fff !important;
+}
+.navbar li a:hover {
+    color: rgb(223, 88, 26) !important;
+}
+.dropdown-menu .dropdown-item{
+    background-color: rgba(82,64,120,0.9) !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd9d3e;
+}
+.navbar i:hover{
+    color: #fd9d3e;
+}
+.navbar-light .navbar-nav .nav-links{
+    background-color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #999;
+    padding: 4px 10px;
+}
+.navbar-light .navbar-nav .nav-links:hover{
+    color: #fd9d3e;
+}
+.breadcumb {
+    display: block;
+    background: #191919;
+    padding: 0;
+    height: 460px;
+    background-size: cover;
+    position: relative;
+}
+.breadcumb .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .bread-title {
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Gamja Flower';
+    text-align: center;
+}
+.bread .home{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    color:aliceblue;
+}
+.bread .home1{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    color:aliceblue;
+}
+.bread .home:hover{
+    color: #fd9d3e;
+    font-size: 20px;
+}
+.cover img, .cover a img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.cover .zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.cover .zoom-in:hover img{
+    transform: scale(1.5);
+}
+.row{
+    padding-top: 80px;
+    padding: 0px - 18.5%;
+    margin: 0px-15px;
+}
+.cover-text h2{
+    margin-left: 0px;
+    margin-top: 100px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #fd9d3e;
+}
+.cover-text h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #191919;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cover-text p{
+    font-size: 17px;
+    color: #999;
+    font-family: 'Gamja Flower';
+    line-height: 24px;
+}
+.story{
+    width: 100%;
+    height: 400px;
+    background: rgba(153, 153, 153, 0.119);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.story h5{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #fd9d3e;
+}
+.story h1{
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+.story p{
+    color: #191919;
+    font-family: 'Gamja Flower';
+    font-size: 17px;
+    text-align: center !important;
+    width: 80%;
+}
+.vd{
+    margin-left: 30px;
+}
+.vd-text h2{
+    color: #fd9d3e;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.vd-text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.vd-text p{
+    color: #999;
+    font-family: 'Gamja Flower';
+    font-size: 17px;
+    text-align: center !important;
+    width: 490px;
+    height: 100%;
+}
+/*Review*/
+.reviews .reviews-slide{
+    padding-bottom: 3rem;
+}
+.reviews .reviews-slide .box{
+    padding: 5rem 0;
+    text-align: center;
+    margin: 0 0;
+    opacity: .4;
+    transform: scale(.9);
+}
+
+.reviews .reviews-slide .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.reviews .reviews-slide .box .content h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: black;
+}
+.reviews .reviews-slide .box .content p{
+    font-size: 15px;
+    color: #191919;
+    font-family: 'Gamja Flower';
+}
+.reviews .reviews-slide .box .content .stars i{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 0, 0.765);
+    margin-top: 2rem;
+}
+.reviews .reviews-slide .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    border: #fd9d3e;
+    box-shadow: #fd9d3e;
+    border-radius: 3rem;
+}
+.heading1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #fd9d3e;
+
+}
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*book*/
+.online{
+    margin-left: 50px;
+}
+.online h3{
+    color: #fd9d3e;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.online h1{
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.online p{
+    color: #999;
+    font-size: 18px;
+    font-family: 'Gamja Flower';
+}
+.online span{
+    width: 79%;
+    display: flex;
+    align-items: center;
+    box-shadow: #fff;
+    background: black;
+    border: 10px solid #fd9d3e;
+    padding: 14px;
+    cursor: pointer;
+}
+.online span:hover{
+    background-color: rgb(92, 43, 43);
+    color: #191919;
+}
+.online span i{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.online span i:hover{
+    color: #191919;
+}
+.online strong{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    text-align: center;
+}
+.online strong:hover{
+    color: #191919;
+}
+.title h4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform:capitalize;
+}
+.user-details .input-box{
+    width: calc(100% - 2 - 20px);
+    line-height: 75px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 500px;
+    
+}
+select{
+    width: 83%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: #191919;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition:transform .4s ;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: #fd9d3e;
+} 
+/*Footer*/
+
+.ctt{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.ct:hover{
+    color: #fd9d3e;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-white h6{
+    text-align:center;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fd9d3e;
+    padding: 4px 10px;
+    background-color: #fd9d3e;
+}
+.text-uppercase{
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+.text-white{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.icon i{
+    margin: 5px 5px 15px 15px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    background-color: #191919;
+}
+.icon i:hover{
+    color:  #fd9d3e;
+}
