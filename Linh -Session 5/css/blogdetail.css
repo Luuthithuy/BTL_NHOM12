@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* .navbar{
+    background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    margin-left: 20px;
+} */
+.navbar {
+	background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar li a:hover {
+    color: rgb(223, 88, 26) !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd9d3e;
+}
+.navbar i:hover{
+    color: #fd9d3e;
+}
+.navbar-light .navbar-nav .nav-links{
+    background-color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #999;
+    padding: 4px 10px;
+}
+.navbar-light .navbar-nav .nav-links:hover{
+    color: #fd9d3e;
+}
+.dropdown-menu .dropdown-item{
+    background-color: rgba(82,64,120,0.9) !important;
+}
+/* .btn{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 0px 0px;
+    border-radius: 20px;
+    transition:transform .4s ;
+}
+.btn:hover{
+    transform: scale(1.2);
+} */
+
+.breadcumb {
+    display: block;
+    background: #191919;
+    padding: 0;
+    height: 460px;
+    background-size: cover;
+    position: relative;
+}
+.breadcumb .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .bread-title {
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Gamja Flower';
+}
+.bread .home{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+.bread .home1{
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+}
+.bread .home:hover{
+    color: #fd9d3e;
+    font-size: 20px;
+}
+.main .bread {
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 0;
+}
+.hm {
+    color: #fff;
+    text-decoration: none;
+}
+.hm:hover{
+    color: #fd9d3e;
+}
+
+/*Body page*/
+.row{
+    padding-top: 80px;
+    padding: 0px - 18.5%;
+    margin: 0px-15px;
+}
+.row img{
+    width: 95%;
+    margin-left: 20px;
+    
+}
+.cover-text h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 45px;
+    font-family: 'Gamja Flower';
+    margin-left: 15px;
+}
+
+.user-post{
+    margin-left:15px;
+    font-size:17px;
+    font-weight: 700;
+    font-family: 'Gamja Flower';
+}
+.covertext p{
+    color: #999;
+    font-size: 17px;
+    font-family: 'Gamja Flower';
+    margin-left: 15px;
+}
+.story{
+    width: 90%;
+    height: 100%;
+    border: 3px solid #999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+
+.story p{
+    color: #191919;
+    font-family: 'Gamja Flower';
+    font-size: 17px;
+    text-align: center !important;
+    width: 80%;
+}
+.kovertext p{
+    margin-left: 60px;
+    color: #999;
+    font-size: 17px;
+    font-family: 'Gamja Flower';
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.tags{
+    text-align:center;
+    margin: 5px 5px 5px 60px;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 4px 10px;
+}
+.tags a{
+    text-decoration: none;
+    color:#999;
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.tags a:hover{
+    color: #fff;
+}
+.tags:hover {
+    background-color: #fd9d3e;
+}
+h4{
+    font-family: 'Gamja Flower';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* .small-img-row{
+    width: 90%;
+    height: 100%;
+    border: 3px solid #999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    background-color: #efefef;
+    overflow: hidden;
+} */
+.small-img-row{
+    display: flex;
+    background-color: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 90%;
+    height: 120%;
+    border: 0px solid #999;
+    align-items: center;
+    margin-left: 60px;
+    justify-content: center;
+    
+}
+.small-img{
+    position: relative;
+    margin-left: 20px;
+}
+.small-img img{
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: #191919;
+    font-family: 'Gamja Flower';
+    font-size: 17px;
+    
+    width: 80%;
+}
+.comments h3{
+    font-weight: bold;
+    font-family: 'Gamja Flower';
+    font-size: 30px;
+    margin-left: 60px;
+}
+.small-img-{
+    display: flex;
+    background-color: #fff;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 90%;
+    height: 120%;
+    border: 0px solid #999;
+    align-items: center;
+    margin-left: 60px;
+    justify-content: center;
+    
+}
+.small-im{
+    position: relative;
+    margin-left: 20px;
+}
+.small-im img{
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.small-img- p{
+    margin-left: 20px;
+    color: #191919;
+    font-family: 'Gamja Flower';
+    font-size: 17px;
+    
+    width: 80%;
+}
+
+/*Leave your comments*/
+.user-details .input-box{
+    width: calc(100% - 2 - 20px);
+    line-height: 75px;
+    
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 500px;
+    
+}
+.user-details .box input{
+    height: 150px;
+    width: 500px;
+    
+}
+
+
+.btn{
+    background-color: #fd9d3e;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transition:transform .4s ;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: #fd9d3e;
+    background-color: #191919;
+} 
+.section h3{
+    font-weight: bold;
+    font-family: 'Gamja Flower';
+    font-size: 30px;
+    margin-left: 60px;
+}
+/*Footer*/
+.ctt{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.ct:hover{
+    color: #fd9d3e;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-white h6{
+    text-align:center;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fd9d3e;
+    padding: 4px 10px;
+    background-color: #fd9d3e;
+}
+.text-uppercase{
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+.text-white{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.icon i{
+    margin: 5px 5px 15px 15px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    background-color: #191919;
+}
+.icon i:hover{
+    color:  #fd9d3e;
+}

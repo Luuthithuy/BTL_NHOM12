@@ -1,0 +1,16 @@
+.cancel{
+    display: none;
+}
+.cancel.open{
+    display: flex;
+}
+.disappears{
+    display: none;
+}
+.close{
+    cursor: pointer;
+    font-size: 30px;
+}
+.close:hover{
+    opacity: 0.5;
+}
