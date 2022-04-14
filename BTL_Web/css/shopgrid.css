@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* .navbar{
+    background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    margin-left: 20px;
+} */
+.navbar {
+	background-color: rgba(82,64,120,0.9) !important;
+    font-family: 'Gamja Flower';
+    font-size: 27px;
+}
+.navbar li a {
+    color: #fff !important;
+}
+.navbar li a:hover {
+    color: rgb(223, 88, 26) !important;
+}
+.dropdown-menu .dropdown-item{
+    background-color: rgba(82,64,120,0.9) !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd9d3e;
+}
+.navbar i:hover{
+    color: #fd9d3e;
+}
+.navbar-light .navbar-nav .nav-links{
+    background-color: green;
+    margin-left: 150px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid #999;
+    padding: 4px 10px;
+}
+.navbar-light .navbar-nav .nav-links:hover{
+    color: #fd9d3e;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+
+}
+.menu-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    margin: 30px ;
+    /* flex-wrap: wrap; */
+
+}
+.menu-item img{
+    width: 150px;
+    height:150px;
+}
+.menu-item img:hover{
+    cursor: pointer;
+}
+.menu-item img:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.menu-item .content{
+    width: 70% ;
+    /* text-align: justify; */
+}
+.content{
+    margin-left: 30px;
+}
+.content h3{
+    font-size: 18px;
+}
+.content h3:hover{
+    color: #fd9d3e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.content p{
+    font-size: 14px;
+    color: #999;
+    width: 90%;
+}
+.content .new{
+    font-size: 18px;
+    color: #fd9d3e;
+}
+.content .old{
+    font-size: 18px;
+    color: #d7d7d7;
+    text-decoration:line-through;
+}
+.content .order{
+    display: flex;
+    margin-top: 20px;
+}
+.content button{
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.content button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+.content .order svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    /* background-color: #000; */
+}
+.content .order svg:hover{
+    box-shadow: 1px 1px 1px 1px #ccc;
+    transform: translateY(-3px);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.order .icon{
+    display: flex;
+    align-items: center;
+    /* background-color: #999; */
+    margin-left: 10px;
+
+}
+
+/*Footer*/
+
+.ctt{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.ct:hover{
+    color: #fd9d3e;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-white h6{
+    text-align:center;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fd9d3e;
+    padding: 4px 10px;
+    background-color: #fd9d3e;
+}
+.text-uppercase{
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+.text-white{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.icon i{
+    margin: 5px 5px 15px 15px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    background-color: #191919;
+}
+.icon i:hover{
+    color:  #fd9d3e;
+}
+.ctt{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.ct:hover{
+    color: #fd9d3e;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-white h6{
+    text-align:center;
+    color: #fff;
+    margin: 5px 5px 15px 0;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #fd9d3e;
+    padding: 4px 10px;
+    background-color: #fd9d3e;
+}
+.text-uppercase{
+    font-family: 'Gamja Flower';
+    font-size: 25px;
+}
+.text-white{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+}
+.icon i{
+    margin: 5px 5px 15px 15px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    background-color: #191919;
+}
+.icon i:hover{
+    color:  #fd9d3e;
+}

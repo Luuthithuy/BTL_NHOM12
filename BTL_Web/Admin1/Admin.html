@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Admin</title>
+</head>
+<body>
+  <!-- header -->
+    <div class="container-fluid header">
+        <div class="row"  style="background-color: #fd3d9e;height:60px">
+           <div class="col-3 title">
+            <h1 style="font-size: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 10px;">Admin</h1>
+          </div> 
+         <div class="col-1 title" style="padding-top: 20px"> 
+            <a href="../index.html" style="text-decoration: none;color:black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Home</a>
+          </div> 
+          <div class="col-3 title" style="padding-top: 10px"> 
+            <div class="input-group">
+                <input type="search" placeholder="Search" aria-describedby="button-addon1" class="form-control border-0 bg-light">
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
+                </div>
+              </div>
+          </div>
+          <div class="col-5 title" style="padding-top: 10px">
+            <p style="float:right">
+            <button type="button" class="btn btn-primary position-relative">
+                <i class="fa-solid fa-comments"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>&emsp;
+              <button type="button" class="btn btn-primary position-relative">
+                <i class="fa-solid fa-bell"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <a href="#" style="text-decoration: none;color:black;"><img class="user-img"  >
+                Admin
+              </a>
+            </p>
+          </div>
+          <!-- <div class="col-2 title" style="padding-top: 10px;"> 
+            <a href="#" style="text-decoration: none;color:black;float:inline-start"><img class="user-img" alt="Bootstrap Image Preview" src="./imagesAdmin/avatar.jpg" style="height:40px;width:40px;border-radius:50%">
+              Nguyễn tươi
+            </a>
+          </div> -->
+        </div>
+      </div>
+<!-- /header -->
+      <div class="container-fluid">
+        <div class="row" style="color:aliceblue;height:500px">
+<!-- col 1 -->
+          <div class="col-3" style="background-color:forestgreen">
+            <h2 style="font-size:25px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Lobster;
+            padding-top: 20px;">Manage Categories</h2>
+            <p style="text-align:center">-------</p>
+            <p><i class="fa-solid fa-house"></i>&emsp;
+            <a href="../index.html" style="text-decoration: none;color:rgb(250, 226, 195);font-size:20px;font-family:Charmonman;">Dashboard</a>
+          </p>
+          <p style="color:aliceblue;font-size:20px;font-family:Charmonman;">
+            <i class="fa-solid fa-book-open"></i>&emsp;
+            <a href="Admin_ManageProducts.html" style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman">Quản lý sản phẩm</a></br>
+          </p>
+          
+          
+
+        <p style="color:aliceblue;font-size:20px;font-family:Charmonman;">
+          <i class="fa-solid fa-users"></i>&emsp;
+          <a href="Admin_ManageMember.html" style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman">Quản lý thành viên</a></br>
+        </p>
+        
+        
+          <p>
+            <i class="fa-solid fa-table-tennis-paddle-ball"></i>&emsp;
+            <a href="Admin_setTable.html" style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman">Quản lý đặt bàn online</a></br>
+            
+          </p>
+          <p>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>&emsp;
+            <a href="../login.html" style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman;">Đăng xuất</a>
+          </p>
+          </div>
+    <!-- col 2 -->
+          <div class="col-9">
+    <!-- header col 2 row1-->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <p style="padding-top: 20px;color:black;font-size: 25px;font-family:Charmonman;">Dashboard</p>
+                </div>
+                <div class="col">
+                  <p><nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="float:right">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    </ol>
+                  </nav></p>
+                </div>
+              </div>
+            </div>
+<!-- body col 2 row2-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      <div style="color:aliceblue;background-color: rgb(104, 163, 240);
+      text-align: center;border-radius:10%;
+       -moz-border-radius:10%;    
+      -webkit-border-radius:10%;
+      font-family:Charmonman;font-size: 25px;">
+        <h3>5</h3>
+        <p>Categories</p>
+        <a href="#"  style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman;">DETAILS 
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div style="color:aliceblue;background-color: rgb(211, 119, 119);
+      text-align: center;border-radius:10%;
+       -moz-border-radius:10%;    
+      -webkit-border-radius:10%;
+      font-family:Charmonman;font-size: 25px;">
+        <h3>5</h3>
+        <p>POSTS</p>
+        <a href="#"  style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman;">DETAILS 
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div style="color:aliceblue;background-color: rgb(197, 154, 90);
+      text-align: center;border-radius:10%;
+       -moz-border-radius:10%;    
+      -webkit-border-radius:10%;
+      font-family:Charmonman;font-size: 25px;">
+        <h3>3</h3>
+        <p>STAFFS</p>
+        <a href="#"  style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman;">DETAILS 
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-3">
+      <div style="color:aliceblue;background-color: rgb(233, 136, 72);
+      text-align: center;border-radius:10%;
+       -moz-border-radius:10%;    
+      -webkit-border-radius:10%;
+      font-family:Charmonman;font-size: 25px;">
+        <h3>3</h3>
+        <p>EMPTY TABLE</p>
+        <a href="#"  style="text-decoration: none;color:aliceblue;font-size:20px;font-family:Charmonman;">DETAILS 
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- row 3 col 2 -->
+  <div class="container-fluid" style="padding-top:30px">
+     <div class="row">
+      <div class="col-6" style="color:black;">
+        <h3>$45,000</h3>
+        <p>Tổng thu nhập trong 10 tháng</p>
+        <img src="Admin_img/phan-tich-khoi-luong-giao-dich.png" style="width:300px">
+        <hr>
+        <a href="#" style="text-decoration: none;color:rgb(108, 58, 173);font-size:15px;font-family:Charmonman;">Thống kê chi tiết</a>
+      </div>
+      <div class="col-6" style="color:black;">
+        <h3>300</h3>
+        <p>Số lượng đơn hàng trong 5 tháng </p>
+        <img src="Admin_img/photo1625020248242-16250202485111259660068.webp" style="width:300px">
+         <hr>  <!-- Đường thẳng -->
+        <a href="#" style="text-decoration: none;color:rgb(108, 58, 173);font-size:15px;font-family:Charmonman;">Thống kê chi tiết</a>
+      </div>
+    </div>
+  </div>
+  <div style="color:black; padding-top: 30px;">
+    <p>Hoạt động bán hàng gần đây</p>
+    <img src="Admin_img/top-10-cong-ty-chung-khoan-uy-tin-nhat-hien-nay-11.jpg">
+    <hr>
+    <a href="#" style="text-decoration: none;color:rgb(108, 58, 173);font-size:15px;font-family:Charmonman;">Thống kê chi tiết</a>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="./Admin_Js/Admin_Home.js"></script>      
+
+</body>
+</html>
